@@ -19835,16 +19835,17 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.MoveToLayer,
 	cr.plugins_.Text.prototype.acts.MoveToLayer,
 	cr.system_object.prototype.cnds.Compare,
-	cr.plugins_.Function.prototype.cnds.OnFunction,
-	cr.plugins_.Text.prototype.exps.Text,
-	cr.system_object.prototype.exps.newline,
-	cr.plugins_.Function.prototype.exps.Param,
+	cr.system_object.prototype.cnds.LayerVisible,
+	cr.system_object.prototype.acts.SetTimescale,
+	cr.plugins_.TextBox.prototype.acts.SetFocus,
+	cr.system_object.prototype.acts.SetLayerVisible,
 	cr.plugins_.TextBox.prototype.cnds.CompareText,
 	cr.plugins_.Function.prototype.acts.CallFunction,
 	cr.plugins_.TextBox.prototype.exps.Text,
 	cr.plugins_.TextBox.prototype.acts.SetText,
-	cr.system_object.prototype.acts.SetLayerVisible,
-	cr.system_object.prototype.cnds.LayerVisible,
-	cr.system_object.prototype.acts.SetTimescale
+	cr.plugins_.Function.prototype.cnds.OnFunction,
+	cr.plugins_.Text.prototype.exps.Text,
+	cr.system_object.prototype.exps.newline,
+	cr.plugins_.Function.prototype.exps.Param
 ];};
 
